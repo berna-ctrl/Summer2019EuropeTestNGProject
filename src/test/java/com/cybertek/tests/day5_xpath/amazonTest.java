@@ -18,7 +18,7 @@ public class amazonTest {
 
         //type Selenium
         searchBox.sendKeys("Selenium");
-        Thread.sleep(1000);
+        //Thread.sleep(1000);
 
         //locate searchbox
         WebElement searchElement = driver.findElement(By.xpath("//input[@value='Go']"));
